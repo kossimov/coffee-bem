@@ -467,11 +467,6 @@ a {
 }
 
 /* Information */
-.information {
-}
-
-.container {
-}
 
 .information__wrapper {
     display: flex;
@@ -489,9 +484,6 @@ a {
     background-image: url(./../img/coffee_man.jpg);
     background-size: 445px;
     border-radius: 8px;
-}
-
-.information__right {
 }
 
 .information__heading {
@@ -519,12 +511,6 @@ a {
 }
 
 /* Quality */
-.quality {
-}
-
-.container {
-}
-
 .quality__wrapper {
     background-color: #293039;
     position: relative;
@@ -547,10 +533,6 @@ a {
     top: 0;
     right: 0;
     transform: translate(-17%, -17%);
-}
-
-
-.quality__left {
 }
 
 .quality__heading {
@@ -581,9 +563,6 @@ a {
 /* Headquarters */
 .headquarters {
     margin-bottom: 168px;
-}
-
-.container {
 }
 
 .headquarters__wrapper {
@@ -627,9 +606,6 @@ a {
     line-height: 36px;
     color: #333D4B;
     margin-bottom: 24px;
-}
-
-.headquarters__items-inner-list {
 }
 
 .headquarters__items-item {

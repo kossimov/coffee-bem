@@ -1,42 +1,57 @@
-* {
+html {
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
-img {
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fraunces';
+    font-size: 16px;
+}
+
+img{
     vertical-align: middle;
 }
 
-html {
-    scroll-behavior: smooth;
-    height: 100%;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    font-family: 'Fraunces 9pt';
-    font-style: normal;
-    font-size: 16px;
-    margin: 0;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
     padding: 0;
-    background-color: #FEFCF7;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
 }
 
-main {
-    flex-grow: 1;
+.container {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-    margin: 0;
-}
-
-ol, ul {
+ul, ol {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
 a {
     text-decoration: none;
+}
+
+main {
+    flex-grow: 1;
 }
